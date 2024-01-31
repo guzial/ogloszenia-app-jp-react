@@ -1,0 +1,24 @@
+{
+  "ogloszeniaAppReactApp": {
+    "typUmowy": {
+      "home": {
+        "title": "Typ Umowies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Typ Umowy",
+        "createOrEditLabel": "Create or edit a Typ Umowy",
+        "notFound": "No Typ Umowies found"
+      },
+      "created": "A new Typ Umowy is created with identifier {{ param }}",
+      "updated": "A Typ Umowy is updated with identifier {{ param }}",
+      "deleted": "A Typ Umowy is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Typ Umowy {{ id }}?"
+      },
+      "detail": {
+        "title": "Typ Umowy"
+      },
+      "id": "ID",
+      "tekst": "Tekst"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+entity Ogloszenie {
+  tytul String,
+  opis String,
+  dataPublikacji LocalDate,
+  dataWaznosci LocalDate,
+  startOd LocalDate,
+  czyWidelki Boolean,
+  widelkiMin BigDecimal,
+  widelkiMax BigDecimal,
+  aktywne Boolean
+}
+
+entity Wystawca {
+  nazwa String,
+  kontakt String
+}
+
+entity Tag {
+  tekst String
+}
+
+entity GrupaTagow {
+  nazwaGrupy String
+}
+
+entity Seniority {
+  nazwa String
+}
+
+entity TypUmowy {
+  tekst String
+}
+
+// Relacje pomiędzy encjami
+
+relationship ManyToOne {
+  Ogloszenie{seniority(nazwa)} to Seniority
+}
+
+relationship ManyToOne {
+  Ogloszenie{typUmowy(tekst)} to TypUmowy
+}
+
+relationship ManyToMany {
+  Ogloszenie{tag(tekst)} to Tag{ogloszenie}
+}
+
+//relationship OneToMany {
+//  Wystawca{ogloszenia} to Ogloszenie
+//}
+
+//relationship OneToOne {
+//  Tag{grupaTagow(nazwaGrupy)} to GrupaTagow
+//}
+
+relationship ManyToOne {
+  Wystawca{user(login)} to User with builtInEntity
+  Ogloszenie{wystawca(nazwa)} to Wystawca
+  Tag{grupaTagow(nazwaGrupy)} to GrupaTagow
+}
+
+// Set pagination options
+paginate Ogloszenie with infinite-scroll
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+// service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

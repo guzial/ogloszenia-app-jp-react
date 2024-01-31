@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Ogloszenie.
+    -->
+    <changeSet id="20240131141954-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="seniority_id"
+                                 baseTableName="ogloszenie"
+                                 constraintName="fk_ogloszenie__seniority_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="seniority"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="typ_umowy_id"
+                                 baseTableName="ogloszenie"
+                                 constraintName="fk_ogloszenie__typ_umowy_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="typ_umowy"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="wystawca_id"
+                                 baseTableName="ogloszenie"
+                                 constraintName="fk_ogloszenie__wystawca_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="wystawca"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="ogloszenie_id"
+                                 baseTableName="rel_ogloszenie__tag"
+                                 constraintName="fk_rel_ogloszenie__tag__ogloszenie_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ogloszenie"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="tag_id"
+                                 baseTableName="rel_ogloszenie__tag"
+                                 constraintName="fk_rel_ogloszenie__tag__tag_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tag"
+                                 />
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20240131142454"
+  },
+  "applications": "*",
+  "entityTableName": "typ_umowy",
+  "fields": [
+    {
+      "fieldName": "tekst",
+      "fieldType": "String"
+    }
+  ],
+  "name": "TypUmowy",
+  "relationships": [],
+  "searchEngine": "no"
+}

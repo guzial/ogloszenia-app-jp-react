@@ -1,0 +1,24 @@
+{
+  "ogloszeniaAppReactApp": {
+    "grupaTagow": {
+      "home": {
+        "title": "Grupa Tagows",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Grupa Tagow",
+        "createOrEditLabel": "Create or edit a Grupa Tagow",
+        "notFound": "No Grupa Tagows found"
+      },
+      "created": "A new Grupa Tagow is created with identifier {{ param }}",
+      "updated": "A Grupa Tagow is updated with identifier {{ param }}",
+      "deleted": "A Grupa Tagow is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Grupa Tagow {{ id }}?"
+      },
+      "detail": {
+        "title": "Grupa Tagow"
+      },
+      "id": "ID",
+      "nazwaGrupy": "Nazwa Grupy"
+    }
+  }
+}

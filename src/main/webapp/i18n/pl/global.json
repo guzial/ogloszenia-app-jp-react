@@ -7,7 +7,13 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Encje",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "ogloszenie": "Ogloszenie",
+        "wystawca": "Wystawca",
+        "tag": "Tag",
+        "grupaTagow": "Grupa Tagow",
+        "seniority": "Seniority",
+        "typUmowy": "Typ Umowy"
       },
       "account": {
         "main": "Konto",

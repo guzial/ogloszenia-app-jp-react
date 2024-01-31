@@ -1,0 +1,79 @@
+{
+  "annotations": {
+    "changelogDate": "20240131141954"
+  },
+  "applications": "*",
+  "entityTableName": "ogloszenie",
+  "fields": [
+    {
+      "fieldName": "tytul",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "opis",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataPublikacji",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dataWaznosci",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "startOd",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "czyWidelki",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "widelkiMin",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "widelkiMax",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "aktywne",
+      "fieldType": "Boolean"
+    }
+  ],
+  "name": "Ogloszenie",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityField": "nazwa",
+      "otherEntityName": "seniority",
+      "relationshipName": "seniority",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "tekst",
+      "otherEntityName": "typUmowy",
+      "relationshipName": "typUmowy",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "nazwa",
+      "otherEntityName": "wystawca",
+      "relationshipName": "wystawca",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "tekst",
+      "otherEntityName": "tag",
+      "otherEntityRelationshipName": "ogloszenie",
+      "relationshipName": "tag",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

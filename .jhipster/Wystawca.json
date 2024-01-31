@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240131142054"
+  },
+  "applications": "*",
+  "entityTableName": "wystawca",
+  "fields": [
+    {
+      "fieldName": "nazwa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kontakt",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Wystawca",
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipWithBuiltInEntity": true
+    }
+  ],
+  "searchEngine": "no"
+}
