@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20240131142254"
+  },
+  "applications": "*",
+  "entityTableName": "grupa_tagow",
+  "fields": [
+    {
+      "fieldName": "nazwaGrupy",
+      "fieldType": "String"
+    }
+  ],
+  "name": "GrupaTagow",
+  "relationships": [],
+  "searchEngine": "no"
+}

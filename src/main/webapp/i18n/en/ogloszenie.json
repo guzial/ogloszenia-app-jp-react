@@ -1,0 +1,36 @@
+{
+  "ogloszeniaAppReactApp": {
+    "ogloszenie": {
+      "home": {
+        "title": "Ogloszenies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Ogloszenie",
+        "createOrEditLabel": "Create or edit a Ogloszenie",
+        "notFound": "No Ogloszenies found"
+      },
+      "created": "A new Ogloszenie is created with identifier {{ param }}",
+      "updated": "A Ogloszenie is updated with identifier {{ param }}",
+      "deleted": "A Ogloszenie is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ogloszenie {{ id }}?"
+      },
+      "detail": {
+        "title": "Ogloszenie"
+      },
+      "id": "ID",
+      "tytul": "Tytul",
+      "opis": "Opis",
+      "dataPublikacji": "Data Publikacji",
+      "dataWaznosci": "Data Waznosci",
+      "startOd": "Start Od",
+      "czyWidelki": "Czy Widelki",
+      "widelkiMin": "Widelki Min",
+      "widelkiMax": "Widelki Max",
+      "aktywne": "Aktywne",
+      "seniority": "Seniority",
+      "typUmowy": "Typ Umowy",
+      "wystawca": "Wystawca",
+      "tag": "Tag"
+    }
+  }
+}

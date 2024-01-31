@@ -1,0 +1,26 @@
+{
+  "ogloszeniaAppReactApp": {
+    "wystawca": {
+      "home": {
+        "title": "Wystawca",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Wystawca",
+        "createOrEditLabel": "Dodaj lub edytuj: Wystawca",
+        "notFound": "No Wystawcas found"
+      },
+      "created": "Utworzono nowy obiekt typu Wystawca z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Wystawca z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Wystawca z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Wystawca {{ id }}?"
+      },
+      "detail": {
+        "title": "Wystawca"
+      },
+      "id": "ID",
+      "nazwa": "Nazwa",
+      "kontakt": "Kontakt",
+      "user": "User"
+    }
+  }
+}

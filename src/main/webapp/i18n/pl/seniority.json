@@ -1,0 +1,24 @@
+{
+  "ogloszeniaAppReactApp": {
+    "seniority": {
+      "home": {
+        "title": "Seniority",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Seniority",
+        "createOrEditLabel": "Dodaj lub edytuj: Seniority",
+        "notFound": "No Seniorities found"
+      },
+      "created": "Utworzono nowy obiekt typu Seniority z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Seniority z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Seniority z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Seniority {{ id }}?"
+      },
+      "detail": {
+        "title": "Seniority"
+      },
+      "id": "ID",
+      "nazwa": "Nazwa"
+    }
+  }
+}

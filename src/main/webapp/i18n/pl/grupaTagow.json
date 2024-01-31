@@ -1,0 +1,24 @@
+{
+  "ogloszeniaAppReactApp": {
+    "grupaTagow": {
+      "home": {
+        "title": "Grupa Tagow",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Grupa Tagow",
+        "createOrEditLabel": "Dodaj lub edytuj: Grupa Tagow",
+        "notFound": "No Grupa Tagows found"
+      },
+      "created": "Utworzono nowy obiekt typu Grupa Tagow z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Grupa Tagow z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Grupa Tagow z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Grupa Tagow {{ id }}?"
+      },
+      "detail": {
+        "title": "Grupa Tagow"
+      },
+      "id": "ID",
+      "nazwaGrupy": "Nazwa Grupy"
+    }
+  }
+}

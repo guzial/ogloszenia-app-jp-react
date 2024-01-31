@@ -1,0 +1,31 @@
+{
+  "annotations": {
+    "changelogDate": "20240131142154"
+  },
+  "applications": "*",
+  "entityTableName": "tag",
+  "fields": [
+    {
+      "fieldName": "tekst",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Tag",
+  "relationships": [
+    {
+      "otherEntityField": "nazwaGrupy",
+      "otherEntityName": "grupaTagow",
+      "relationshipName": "grupaTagow",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "ogloszenie",
+      "otherEntityRelationshipName": "tag",
+      "relationshipName": "ogloszenie",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}
